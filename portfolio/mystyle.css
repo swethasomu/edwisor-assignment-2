@@ -1,0 +1,198 @@
+body
+{
+  margin:0;
+  font-family: "Roboto", sans-serif;
+  background-color:lightgray;
+  overflow-x:hidden;
+}
+.flex-container{
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction:row;
+		width:100%;
+		display: -webkit-flex;
+		-webkit-flex-flow: row wrap;
+	  flex-flow: row wrap;
+	}
+ul.topnav li.portfolio{
+     float:left;
+     color:white;	
+     font-family:"AvenirLT-Book";
+     letter-spacing:1px;
+     font-style: oblique;
+     font-size:1.5em;
+     padding-top:5px;
+     padding-left:20px;
+     padding-bottom:-5px;
+}
+ul.topnav{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#0065A1;
+	font-size:1.5em;
+	width:100%;
+	display:block;
+
+}
+ul.topnav li{
+	float:right;
+	padding-top:10px;
+	padding-right:10px;
+    }
+ul.topnav li a{
+	color:white;
+	text-align:center;
+	padding : 14px 16px;
+	text-decoration:none;
+}
+ul.topnav li a:hover{
+background-color:#AAAEAF;
+}
+.container
+{
+	background-image:url("F:/Edwisor/images/b1.jpg");
+	margin:auto;
+	width:100%;
+	height:250px;
+	text-align:center;
+	color:white;
+	 font-style: oblique;
+     font-size:1.5em;
+     padding:0px 20%;
+}
+img{
+		max-width:10%;
+		max-height:100px;
+		float:center;
+}
+
+p{
+	font-family:"roboto,sans-serif";
+	font-size:1.2em;
+	padding-left:10px;
+}
+
+p::first-line{
+	padding-left:30px;
+}
+
+.container-body{
+	text-align:left;
+    max-width:1400px;
+    margin-top:16px;
+}
+.row{
+	padding:8px 16px;
+}
+.left-col{
+	background-color:white;
+	color:gray;
+	box-shadow:4px;
+	padding:16px;
+}
+.large-skills{
+	font-size:large;
+}
+
+#rcorners{
+border-radius:16px;
+background-color:lightgray;	
+font-size:12px;
+}
+
+.round1	{
+	text-align:center;
+	border-radius:16px;
+	background-color:teal;
+	width:90%;
+}
+.round2	{
+	text-align:center;
+	border-radius:16px;
+	background-color:teal;
+	width:80%;
+}
+.round3	{
+	text-align:center;
+	border-radius:16px;
+	background-color:teal;
+	width:70%;
+}
+.round4	{
+	text-align:center;
+	border-radius:16px;
+	background-color:teal;
+	width:50%;
+}
+.round5	{
+	text-align:center;
+	border-radius:16px;
+	background-color:teal;
+	width:70%;
+}
+.round6	{
+	text-align:center;
+	border-radius:16px;
+	background-color:teal;
+	width:100%;
+}
+.right-col{
+	background-color:white;
+	color:gray;
+	box-shadow:4px;
+	padding:16px;
+	font-size:large;
+	margin-bottom:16px;
+}
+.work-exp{
+	font-size:24px;
+	padding:16px;
+	
+}
+.contact{
+	padding-right:100px;
+	padding-left:10px;
+	text-align:center;
+}
+
+input[type=name], select{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 20px ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    padding-left:24px;
+}
+.textarea{
+	padding-left:20px;
+}
+.footer-container{
+	font-size:12px;
+	background-color:#005E7A;
+	text-align:center;
+	margin-top:4px;
+	color:white;
+}
